@@ -1,0 +1,151 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #ff4c68;
+    /* padding: 3% 15%; */
+    color: #fff;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3rem;
+     line-height: 1.5;  
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    /* margin: 0 0  4.5rem; */
+    padding: 0 0  4.5rem 0;
+}
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+.iphon{
+    transform: rotate(25deg);
+    width: 60%;
+    margin: 5% 3% 5% 0%;
+     /* position: absolute; 
+    right: 30%;  */
+}
+.relative-div{
+    position: relative;
+}
+@media (max-width:800px) {
+    #title{
+        text-align: center;
+    }
+    .iphon{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+#features{
+   
+   /* padding: 7% 15%; */
+   position: relative;
+  
+}
+.icon{
+    color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    margin: 20px;
+    border-radius: 100%;
+       width: 10%;
+}
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+#pricing{
+    padding: 100px;
+}
+.col{
+    padding: 3% 2%;
+}
+/* .container-fluid{ */
+    /* padding: 3% 15% 7%; */
+    /* position: relative; */
+/* } */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+#cta{
+    background-color: #ff4c68;
+    
+    color: #fff;
+    font-family: "Montserrat-Black";
+    padding: 8% 3%;
+    text-align: center;
+   
+ 
+}
+#footer{
+    background-color: #fff;
+    padding: 8% 3%;
+    text-align: center;
+}
+.h3-footer{
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+}
+.fi-btn{
+    margin-right: 20px;
+   
+}
+.f-icon{
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
